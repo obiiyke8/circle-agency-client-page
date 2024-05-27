@@ -5,111 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page - Circle Agency</title>
     <link rel="stylesheet" href="/mid-week-project/assets/style.css">
+    <script src="./contact.js"></script>
 </head>
 <body>
     
-    <div class="splash">
-        <div class="circle2">
-          <div class="outer-circle"></div>
-          <div class="inner-circle"></div>
-          <div class="box box-top-left"></div>
-          <div class="box box-bottom-left"></div>
-          <div class="box box-bottom-right"></div>
-          <div class="box box-top-right"></div>
-        </div>
-      </div>
-      <!-- Splash Loader Code End -->
-      <!-- ----- -->
-      <!-- ----- -->
-      <!-- ----- -->
+    <!-- Splash Loader Code Start
+
+<div class="splash">
+  <div class="circle2">
+    <div class="outer-circle"></div>
+    <div class="inner-circle"></div>
+    <div class="box box-top-left"></div>
+    <div class="box box-bottom-left"></div>
+    <div class="box box-bottom-right"></div>
+    <div class="box box-top-right"></div>
+  </div>
+</div>  -->
       <!-- NavBar Element -->
-      <div id="navbar">
+       <div id="navbar">
         <nav>
-          <!-- Client Logo -->
           <div class="logo">
             <a href="./index.html">
-              <img
-                src="/mid-week-project/img/circle.svg"
-                alt="Circle Agency Logo"
-              />
+              <img src="/mid-week-project/img/circle.svg" alt="Circle Agency Logo"/>
             </a>
+
           </div>
-          <!-- Nav Links -->
           <div class="nav-links">
-            <a href="">Home</a>
-            <a href="">Projects</a>
-            <a href="">Services</a>
-            <a href="">About</a>
+            <a href="./index.html">Home</a>
+            <a href="./assets/project.html">Project Page-Simple</a>
+            <a href="ServiceLink">Services</a>
+
           </div>
-          <!-- Contact Us Blue Btn -->
           <div id="top-contact-btn" class="btn-blue">
-            <a class="btn-blue" href="./contact.html">Contact Us</a>
+            <a href="./assets/contact.html">Contact Us</a>
           </div>
         </nav>
-      </div>
-      <!-- Contzct Us Section -->
-      <section id="contact-main">
-        <div class="txt-title">
-          <h1>Contact Us</h1>
-          <div id="contact-form" class="form-container">
-            <form id="form-message">
-              <!-- Name  -->
-              <label for="name">Full Name</label>
-              <input type="text" name="name" id="name" required />
-              <!-- Email + Phone Cont -->
-              <div class="email-phone">
-                <!-- Email  -->
-                <div>
-                  <label for="email">Email Address</label>
-                  <input type="email" name="email" id="email" required />
-                </div>
-                <!-- Phone  -->
-                <div>
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" name="phone" id="phone" required />
-                </div>
-              </div>
-              <!-- Text Area Cont -->
-              <!-- Body Of Message  -->
-              <label for="message">Write Your Message</label>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Enter your message here......"
-              ></textarea>
-              <button type="submit" class="btn-submit">Submit Form</button>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- Footer Section -->
-      <footer>
-        <!-- Logo -->
-        <div class="bottom-logo">
-          <div class="bottom-img-logo">
-            <img
-              src="/mid-week-project/img/circle.svg"
-              alt="Circle Agency Logo"
-            />
-          </div>
-          <div class="address">
-            <p>
-              2972 Westheimer Rd. Santa Ana, <br />
-              Illinois 85486
+        <section class="newsletter">
+          <div class="container">
+            <h2>Subscribe to Our Newsletter
+
+            </h2>
+            <p>Stay updated with our latest news and promotions!
+
             </p>
+            <div class="newsletter-form">
+              <div class="input-group">
+                <img src="/mid-week-project/img/mail.svg" alt="Email Icon" class="icon">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- NavLinks -->
-        <!-- This is achieved easier by using grid in css ;) -->
-        <div class="grid-links">
-          <a href="">Team</a>
-          <a href="">Services</a>
-          <a href="">About Us</a>
-          <a href="">Press</a>
-          <a href="">Projects</a>
-          <a href="">Privay Policy</a>
-        </div>
-      </footer>
+        </section>
     
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-left">
+              <img src="/mid-week-project/img/circle.svg" alt="Footer Logo" class="footer-logo">
+              <p class="address">2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</p>        
+          </div>
+            <div class="footer-right">
+              <ul class="footer-links">
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      
 </body>
 </html>
